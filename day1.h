@@ -3,6 +3,7 @@
 
 #include "Solution.h"
 #include <string>
+#include <map>
 
 class Day1 : public Solution
 {
@@ -12,6 +13,7 @@ public:
 
 private:
     static const std::string input;
+    static const std::map<int, std::string> numbers;
     int getNumber(std::string line, int start, bool reverse = false);
 };
 

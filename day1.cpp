@@ -5,6 +5,7 @@
 #include <vector>
 #include <map>
 #include <ctype.h>
+const std::map<int, std::string> Day1::numbers = {{1, "one"}, {2, "two"}, {3, "three"}, {4, "four"}, {5, "five"}, {6, "six"}, {7, "seven"}, {8, "eight"}, {9, "nine"}};
 
 std::string Day1::GetName()
 {
@@ -83,7 +84,6 @@ void Day1::Run()
 
 int Day1::getNumber(std::string line, int start, bool reverse)
 {
-    std::map<int, std::string> numbers = {{1, "one"}, {2, "two"}, {3, "three"}, {4, "four"}, {5, "five"}, {6, "six"}, {7, "seven"}, {8, "eight"}, {9, "nine"}};
 
     if (!reverse)
     {
