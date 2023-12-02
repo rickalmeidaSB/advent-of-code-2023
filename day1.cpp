@@ -6,8 +6,6 @@
 #include <map>
 #include <ctype.h>
 
-const std::string Day1::BASE10_CHARS = "0123456789";
-
 std::string Day1::GetName()
 {
     return typeid(this).name();
