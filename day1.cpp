@@ -27,7 +27,6 @@ void Day1::Run()
     while (std::getline(stream, line))
     {
         int length = line.length();
-        bool lengthIsOdd = length % 2;
         char first = 0;
         char second = 0;
 
